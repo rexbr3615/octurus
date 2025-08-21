@@ -1,16 +1,13 @@
 package net.rexbrx.octurus;
 
 import net.rexbrx.octurus.data.Usuario;
+import net.rexbrx.octurus.data.contagem;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         System.out.printf("Hello and welcome!");
-
-        for (int ni = 1; ni <= 32; ni++) {
-            System.out.println("ni = " + ni);
-        }
 
         int x = 12;
         int y = 8;
@@ -43,6 +40,9 @@ public class Main {
         } else {
             System.out.println("O número " + Dados_100001 + " é ÍMPAR.");
         }
+
+
+        contagem.main(args);
 
 
     }
