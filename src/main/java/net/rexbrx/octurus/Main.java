@@ -4,6 +4,8 @@ import net.rexbrx.octurus.data.NumberGenerator;
 import net.rexbrx.octurus.data.Usuario;
 import net.rexbrx.octurus.data.contagem;
 import net.rexbrx.octurus.data.fps;
+import net.rexbrx.octurus.objetos.Heranca;
+import net.rexbrx.octurus.objetos.Texugo;
 
 import java.util.Scanner;
 
@@ -47,6 +49,8 @@ public class Main {
         contagem.main(args);
         NumberGenerator.main(args);
         fps.main(args);
+
+        Heranca.main(args);
 
     }
 }
